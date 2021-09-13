@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container p-3">
+        <div class="text-center">
+            <h1 class="text-light">Todo list</h1>
+        </div>
+        <form class="search">
+            <div class="input-group mb-3">
+                <input type="text" name="search" class="form-control" placeholder="Search todos">
+            </div>
+        </form>
+        <ul class="list-group todos mb-3"></ul>
+        <form class="add">
+            <div class="text-start px-2">
+                <h2 class="text-light">Add todo...</h2>
+            </div>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" name="newTodo" placeholder="Enter a Todo and hit Enter">
+            </div>
+        </form>
+    </div>
+
+    <script type="module" src="/script.js"></script>
+</body>
+</html>

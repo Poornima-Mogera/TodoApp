@@ -1,0 +1,9 @@
+body{
+ background-color: #400264;
+}
+.container{
+    max-width: 400px;
+}
+.filtered{
+    display: none !important;
+}
